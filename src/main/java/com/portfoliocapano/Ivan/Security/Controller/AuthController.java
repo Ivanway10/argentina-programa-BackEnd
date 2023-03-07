@@ -13,7 +13,7 @@ import com.portfoliocapano.Ivan.Security.Enums.RolNombre;
 import com.portfoliocapano.Ivan.Security.Service.RolService;
 import com.portfoliocapano.Ivan.Security.Service.UsuarioService;
 import com.portfoliocapano.Ivan.Security.jwt.JwtProvider;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;

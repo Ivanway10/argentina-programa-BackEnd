@@ -6,7 +6,7 @@ package com.portfoliocapano.Ivan.Security.Service;
 
 import com.portfoliocapano.Ivan.Security.Entity.Usuario;
 import com.portfoliocapano.Ivan.Security.Repository.iUsuarioRepository;
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
